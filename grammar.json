@@ -1,0 +1,83 @@
+{
+	"vmad": 
+	{
+		"defs": 
+		{
+			"high":
+			{
+				"test": 
+				{
+					"bitname": "1",
+					"offset": 0,
+					"count": 12
+				},
+				"test4": 
+				{
+					"offset": 13,
+					"count": 19
+				}
+			},
+			"low":
+			{
+				"test2": 
+				{
+					"bitname": "p",
+					"offset": 0,
+					"count": 16,
+					"argtype": "dummy"
+				},
+				"test3":
+				{
+					"bitname": "0", 
+					"count": 12,
+					"offset": 20
+				}
+			}
+		}
+	},
+	"vmov": 
+	{
+		"defs": 
+		{
+			"high":
+			{
+				"dmp1": 
+				{
+					"offset": 0,
+					"count": 5
+				},
+				"asdasd":
+				{
+					"offset": 5,
+					"count": 6
+				},
+				"basd":
+				{
+					"offset": 11,
+					"count": 12
+				},
+				"dmp4": 
+				{
+					"offset": 24,
+					"count": 8
+				}
+			},
+			"low":
+			{
+				"dmp5": 
+				{
+					"bitname": "p",
+					"offset": 3,
+					"count": 16,
+					"argtype": "dummy"
+				},
+				"dmp6":
+				{
+					"bitname": "0", 
+					"count": 12,
+					"offset": 20
+				}
+			}
+		}
+	}
+}
